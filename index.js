@@ -133,7 +133,6 @@ document.querySelector("#submit").addEventListener("click", () => {
       ])
     );
   }
-  console.log(storage);
   // Right side bar/ answer section
   let x = setTimeout(() => {
     showAnswers(answers);
