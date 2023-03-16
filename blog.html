@@ -1,78 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Section</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
-        *{
-            font-family: 'Rubik', sans-serif;
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+      * {
+        font-family: "Rubik", sans-serif;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <section class="container mx-auto my-12 rounded bg-slate-100 p-10">
-        <div class="mb-8">
-            <h3 class="text-2xl mb-4">1. What are the diference between map, filter, forEach, find method?</h3>
-            <p>
-                Ans : The map() method is used to create a new array by applying a function
-                to each element of the original array. The new array has the same length as the
-                original array, and it contains the results of the applied function.
-            </p>
-            <p class="my-2">
-                The filter() method is used to create a new array that contains only
-                the elements of the original array that pass a condition.
-            </p>
-            <p>
-                The forEach() method is used to execute a provided function once for
-                each element of the array. It does not return a new array.
-            </p>
-            <p class="my-2">
-                The find() method is used to return the first element
-                in the array that pass a condition. It returns undefined if no such element is found.
-            </p>
-        </div>
+      <div class="mb-8">
+        <h3 class="text-2xl mb-4">
+          1. What are the diference between map, filter, forEach, find method?
+        </h3>
+        <p>
+          Ans : The map() method is used to create a new array by applying a
+          function to each element of the original array. The new array has the
+          same length as the original array, and it contains the results of the
+          applied function.
+        </p>
+        <p class="my-2">
+          The filter() method is used to create a new array that contains only
+          the elements of the original array that pass a condition.
+        </p>
+        <p>
+          The forEach() method is used to execute a provided function once for
+          each element of the array. It does not return a new array.
+        </p>
+        <p class="my-2">
+          The find() method is used to return the first element in the array
+          that pass a condition. It returns undefined if no such element is
+          found.
+        </p>
+      </div>
 
-        <div class="mb-8">
-            <h3 class="text-2xl mb-4">2. What are the difference between localStorage, sessionStorage and cookie?</h3>
-            <p>Ans : localStorage and sessionStorage stores data in key-value formate in the user's browser.
-                On the otherhand Cookies are small text files that are stored in a user's browser by a website. localStorage is designed for 
-                long term storage and it won't be delete untill we delete in manually. sessionStorage is designed for short term storage and
-                is will be delete if we close the browser. Cookies are designed to store small amounts of data that can be sent back to a 
-                website with each request and it has an expiration date.
-            </p>
-        </div>
+      <div class="mb-8">
+        <h3 class="text-2xl mb-4">
+          2. What are the difference between localStorage, sessionStorage and
+          cookie?
+        </h3>
+        <p>
+          Ans : localStorage and sessionStorage stores data in key-value formate
+          in the user's browser. On the otherhand Cookies are small text files
+          that are stored in a user's browser by a website. localStorage is
+          designed for long term storage and it won't be delete untill we delete
+          in manually. sessionStorage is designed for short term storage and is
+          will be delete if we close the browser. Cookies are designed to store
+          small amounts of data that can be sent back to a website with each
+          request and it has an expiration date.
+        </p>
+      </div>
 
-        <div class="mb-8">
-            <h3 class="text-2xl mb-4">3. What is event loop in javascript?</h3>
-            <p>Ans : The event loop in JavaScript allows non-blocking I/O operations and asynchronous programming. 
-                It maintains a list of functions being executed, and when an asynchronous call completes, the 
-                corresponding callback function is added to a message queue. The event loop continuously checks the 
-                message queue and executes the corresponding function, resulting in a more efficient application. It's 
-                important to be aware of potential issues such as race conditions and use appropriate techniques like 
-                Promises and async/await.
-            </p>
-        </div>
-        <div class="mb-8">
-            <h3 class="text-2xl mb-4">4. What does quizTimer() function do in noChange.js file?</h3>
-            <p>Ans : The quizTimer() function has a parameter called dismis. When the function will call without any argument 
-                then it will start a count down and if the time is upper than 60 second and also devided by 2 then the color of 
-                the time will be deep red if can't devided by 2 it's color will be light red. When the function will call with 
-                a truthy argument then it will stop the count down.
-            </p>
-        </div>
+      <div class="mb-8">
+        <h3 class="text-2xl mb-4">3. What is event loop in javascript?</h3>
+        <p>
+          Ans : The event loop in JavaScript allows non-blocking I/O operations
+          and asynchronous programming. It maintains a list of functions being
+          executed, and when an asynchronous call completes, the corresponding
+          callback function is added to a message queue. The event loop
+          continuously checks the message queue and executes the corresponding
+          function, resulting in a more efficient application. It's important to
+          be aware of potential issues such as race conditions and use
+          appropriate techniques like Promises and async/await.
+        </p>
+      </div>
+      <div class="mb-8">
+        <h3 class="text-2xl mb-4">
+          4. What does quizTimer() function do in noChange.js file?
+        </h3>
+        <p>
+          Ans : The quizTimer() function has a parameter called dismis. When the
+          function will call without any argument then it will start a count
+          down and if the time is upper than 60 second and also devided by 2
+          then the color of the time will be deep red if can't devided by 2 it's
+          color will be light red. When the function will call with a truthy
+          argument then it will stop the count down.
+        </p>
+      </div>
 
-        <div class="mb-8">
-            <h3 class="text-2xl mb-4">5. What does chooseQuiz() function do in noChange.js file?</h3>
-            <p>Ans : The chooseQuiz function takes two parameters: index and givenAns. It checks if answers array has an object 
-                with same id as the quiz at the given index in quizData. If yes, updates the givenAns property with new value. If not, 
-                adds a new object with updated givenAns value to answers. Finally, displayAnswers function is called to update the UI.
-            </p>
-        </div>
-        
+      <div class="mb-8">
+        <h3 class="text-2xl mb-4">
+          5. What does chooseQuiz() function do in noChange.js file?
+        </h3>
+        <p>
+          Ans : The chooseQuiz function takes two parameters: index and
+          givenAns. It checks if answers array has an object with same id as the
+          quiz at the given index in quizData. If yes, updates the givenAns
+          property with new value. If not, adds a new object with updated
+          givenAns value to answers. Finally, displayAnswers function is called
+          to update the UI.
+        </p>
+      </div>
     </section>
-</body>
+  </body>
 </html>
